@@ -1,0 +1,22 @@
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 500px;
+  max-height: 800px;
+  padding: 30px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
